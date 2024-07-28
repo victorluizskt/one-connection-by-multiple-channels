@@ -1,0 +1,17 @@
+C:\Workspace\TestChannelRabbit\Produtor\bin\Debug\net8.0\Produtor.exe
+C:\Workspace\TestChannelRabbit\Produtor\bin\Debug\net8.0\Produtor.deps.json
+C:\Workspace\TestChannelRabbit\Produtor\bin\Debug\net8.0\Produtor.runtimeconfig.json
+C:\Workspace\TestChannelRabbit\Produtor\bin\Debug\net8.0\Produtor.dll
+C:\Workspace\TestChannelRabbit\Produtor\bin\Debug\net8.0\Produtor.pdb
+C:\Workspace\TestChannelRabbit\Produtor\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Workspace\TestChannelRabbit\Produtor\obj\Debug\net8.0\Produtor.csproj.AssemblyReference.cache
+C:\Workspace\TestChannelRabbit\Produtor\obj\Debug\net8.0\Produtor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\TestChannelRabbit\Produtor\obj\Debug\net8.0\Produtor.AssemblyInfoInputs.cache
+C:\Workspace\TestChannelRabbit\Produtor\obj\Debug\net8.0\Produtor.AssemblyInfo.cs
+C:\Workspace\TestChannelRabbit\Produtor\obj\Debug\net8.0\Produtor.csproj.CoreCompileInputs.cache
+C:\Workspace\TestChannelRabbit\Produtor\obj\Debug\net8.0\Produtor.csproj.Up2Date
+C:\Workspace\TestChannelRabbit\Produtor\obj\Debug\net8.0\Produtor.dll
+C:\Workspace\TestChannelRabbit\Produtor\obj\Debug\net8.0\refint\Produtor.dll
+C:\Workspace\TestChannelRabbit\Produtor\obj\Debug\net8.0\Produtor.pdb
+C:\Workspace\TestChannelRabbit\Produtor\obj\Debug\net8.0\Produtor.genruntimeconfig.cache
+C:\Workspace\TestChannelRabbit\Produtor\obj\Debug\net8.0\ref\Produtor.dll
