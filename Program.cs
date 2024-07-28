@@ -10,13 +10,13 @@ namespace Produtor
         static void Main(string[] args)
         {
             var queues = new List<string>
-        {
-            QueueList.QUEUE_CALCULO_ALUGUEL,
-            QueueList.QUEUE_KM_EXCEDENTE,
-            QueueList.QUEUE_MULTA,
-            QueueList.QUEUE_PNEU,
-            QueueList.QUEUE_REEMBOLSO
-        };
+            {
+                QueueList.QUEUE_FACEBOOK,
+                QueueList.QUEUE_GOOGLE,
+                QueueList.QUEUE_ORKUT,
+                QueueList.QUEUE_TWITTER,
+                QueueList.QUEUE_INSTAGRAM
+            };
 
             RunQueue(queues);
         }
@@ -43,11 +43,11 @@ namespace Produtor
         {
             switch (queueToPublish)
             {
-                case QueueList.QUEUE_CALCULO_ALUGUEL:
-                case QueueList.QUEUE_KM_EXCEDENTE:
-                case QueueList.QUEUE_MULTA:
-                case QueueList.QUEUE_PNEU:
-                case QueueList.QUEUE_REEMBOLSO:
+                case QueueList.QUEUE_FACEBOOK:
+                case QueueList.QUEUE_GOOGLE:
+                case QueueList.QUEUE_ORKUT:
+                case QueueList.QUEUE_TWITTER:
+                case QueueList.QUEUE_INSTAGRAM:
                     BuildPublishers(connection, queueToPublish, publisher);
                     break;
                 default:
@@ -64,6 +64,7 @@ namespace Produtor
                 using var channel = connection.CreateModel();
                 channel.QueueDeclare(queue: queueName, durable: false, exclusive: false, autoDelete: false, arguments: null);
                 var basicPublishBatch = channel.CreateBasicPublishBatch();
+
                 for (int i = 0; i < 1000000; i++)
                 {
                     var body = Encoding.UTF8.GetBytes("Vamos codificar.");

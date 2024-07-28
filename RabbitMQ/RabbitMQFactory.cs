@@ -14,18 +14,5 @@ namespace Produtor.RabbitMQ
             var factory = new ConnectionFactory() { HostName = "localhost" };
             return factory.CreateConnection();
         }
-
-        public static IDictionary<string, IModel> CreateModels(IEnumerable<string> channels, IConnection connection)
-        {
-            var modelsDict = new Dictionary<string, IModel>();
-
-            foreach (var channel in channels)
-            {
-                var model = connection.CreateModel(); 
-                modelsDict[channel] = model;
-            }
-
-            return modelsDict;
-        }
     }
 }

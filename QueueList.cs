@@ -2,10 +2,10 @@
 {
     public static class QueueList
     {
-        public const string QUEUE_KM_EXCEDENTE = "queue.faturamento.kmexcedente.v1";
-        public const string QUEUE_MULTA = "queue.faturamento.multa.v1";
-        public const string QUEUE_CALCULO_ALUGUEL = "queue.faturamento.aluguel.v1";
-        public const string QUEUE_REEMBOLSO = "queue.faturamento.reembolso.v1";
-        public const string QUEUE_PNEU = "queue.faturamento.pneu.v1";
+        public const string QUEUE_GOOGLE = "queue.google.v1";
+        public const string QUEUE_ORKUT = "queue.orkut.v1";
+        public const string QUEUE_FACEBOOK = "queue.facebook.v1";
+        public const string QUEUE_INSTAGRAM = "queue.instagram.v1";
+        public const string QUEUE_TWITTER = "queue.twitter.v1";
     }
 }
